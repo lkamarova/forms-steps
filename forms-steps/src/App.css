@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: 62,5%;
+}
+
+#root {
+  width: 70%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #0f2027;
+  background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  align-content: flex-start;
+  margin-top: 10%;
+}
+
+.bodyWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+  align-items: flex-end;
+}
